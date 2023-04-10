@@ -3,11 +3,17 @@ Testing with computervision opencvlib
 
 
 #for testing
+
 git clone https://github.com/BattleMageBro/OpenCV_test.git
+
 cd OpenCV_test
+
 python -m venv venv
+
 when error make >> pip install python-venv
+
 source venv/bin/activate (source venv/Scripts/activate for windows)
+
 pip install -r requirement.txt
 
 Linux
