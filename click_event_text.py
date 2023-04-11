@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread('profile.jpg', 1)
+img = cv2.imread('images/profile.jpg', 1)
 print([event for event in dir(cv2) if 'EVENT' in event])
 assert img is not None, "No file given"
 

@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread('profile.jpg', 1)
+img = cv2.imread('images/profile.jpg', 1)
 
 assert img is not None, "No file given"
 imgray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)

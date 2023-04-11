@@ -1,7 +1,7 @@
 import cv2
 
 cam = cv2.VideoCapture(0)
-eye_cascade = cv2.CascadeClassifier('eye.xml')
+eye_cascade = cv2.CascadeClassifier('cascades/eye.xml')
 
 while cam.isOpened():
     ret, frame = cam.read()

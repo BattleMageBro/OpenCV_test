@@ -1,8 +1,8 @@
 import cv2
 
 cam = cv2.VideoCapture(0)
-face_cascade = cv2.CascadeClassifier('frontalface_default.xml')
-profile_cascade = cv2.CascadeClassifier('profilefaces.xml')
+face_cascade = cv2.CascadeClassifier('cascades/frontalface_default.xml')
+profile_cascade = cv2.CascadeClassifier('cascades/profilefaces.xml')
 
 while cam.isOpened():
     ret, frame = cam.read()

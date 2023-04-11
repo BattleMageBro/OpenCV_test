@@ -1,7 +1,7 @@
 import cv2
 import pytesseract
 
-img = cv2.imread("text.jpg")
+img = cv2.imread("images/text.jpg")
 imgray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 ret, thresh = cv2.threshold(imgray, 0, 255, cv2.THRESH_OTSU | cv2.THRESH_BINARY_INV)
 rect_kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (18, 18))
